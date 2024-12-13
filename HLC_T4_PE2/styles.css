@@ -1,0 +1,81 @@
+
+body {
+    margin: 0;
+    background-color: #E2E5E7;
+}
+
+* {
+    font-family: "font-family: "Nunito", sans-serif;", serif;
+}
+
+.containerbtn {
+    min-height: 100vh;
+    display: flex;
+}
+
+.container {
+    min-height: 100vh;
+    padding: 200px;
+    display: flexbox;
+}
+
+.notes-container {
+    min-height: 100vh;
+    padding: 200px;
+    display: block;
+    overflow-y: auto; height: 100%;
+}
+
+.menu {
+    background-color: #85CEF0;
+    width: 20%;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.menu button {
+    width: 50%;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 0;
+    border-radius: 5px;
+    padding: 5% 10%;
+    margin: 5%;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.div {
+    display: inline-block;
+}
+
+.menu button:hover {
+    background-color: #E2E5E7;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize:both;
+}
+
+button {
+    background-color: #F9DC6A;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+button:hover {
+    background-color: #e7d380;
+}
+
+notes-container{
+    border: 1px solid #ccc;
+    background-color: #e7d380;
+}

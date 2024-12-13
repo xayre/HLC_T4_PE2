@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>María José Ignacio Rodríguez</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="containerbtn">
+    <div class="menu">
+      <button id="btn1">Mostrar Chat</button>
+      <button id="btn2">Ocultar Chat</button>
+      
+    </div>
+
+   
+    <div class="container">
+        <div id="notes-container">
+            <p id="no-notes" style="font-style: italic; color: #555;"><i>Todavía no hay mensajes</i></p>
+        </div>
+        <textarea id="note-input" placeholder="Escribe tu mensaje"></textarea>
+        <button class="theme-button" onclick="addNote()">Enviar</button>
+        <button class="theme-button" onclick="clearAllNotes()">Borrar chat</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
